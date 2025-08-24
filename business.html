@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesotho Hub - Business</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: url('back.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background: rgba(0, 100, 0, 0.85);
+      color: white;
+      padding: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 50px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      flex: 1;
+      padding: 20px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    h1 {
+      text-align: center;
+      color: darkgreen;
+      margin-bottom: 20px;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .product {
+      background: rgba(255, 255, 255, 0.95);
+      padding: 15px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+    }
+    .product img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+    .product h3 {
+      margin: 10px 0 5px;
+      color: darkgreen;
+    }
+    .product p {
+      margin: 0;
+      font-weight: bold;
+      color: #444;
+    }
+    footer {
+      background: rgba(0, 100, 0, 0.9);
+      color: white;
+      text-align: center;
+      padding: 12px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.webp" alt="Lesotho Hub Logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="business.html">Business</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="tips.html">Tips</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h1>Our Farmers' Products</h1>
+    <div class="product-grid">
+      <div class="product">
+        <img src="tomatoes.jpg" alt="Tomatoes">
+        <h3>Fresh Tomatoes</h3>
+        <p>M100 per box</p>
+      </div>
+      <div class="product">
+        <img src="cabbage.webp" alt="Cabbage">
+        <h3>Cabbages</h3>
+        <p>M50 per sack</p>
+      </div>
+      <div class="product">
+        <img src="carrots.jpg" alt="Carrots">
+        <h3>Carrots</h3>
+        <p>M40 per bundle</p>
+      </div>
+      <div class="product">
+        <img src="milk.jpg" alt="Milk">
+        <h3>Potatoes</h3>
+        <p>M15 1L</p>
+      </div>
+      <div class="product">
+        <img src="eggs.webp" alt="Eggs">
+        <h3>Spinach</h3>
+        <p>M60 tray</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Lesotho Hub. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
